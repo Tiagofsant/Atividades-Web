@@ -3,12 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 textarea:focus,
 input:focus {
     outline: none;
 }
-
 #container-Agua {
     background-color: rgb(17, 127, 238);
     width: 400px;
@@ -19,37 +17,34 @@ input:focus {
     border-radius: 10px;
     text-align: center;
 }
-
-
 form {
     margin-top: 30px;
     margin-bottom: 40px;
 }
-
 label,
 input {
     display: block;
     width: 100%;
     text-align: left;
 }
-
 label {
     font-weight: bold;
     font-size: .8rem;
 }
-
 input {
     border-bottom: 2px solid #323232;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
 }
-
 input:focus {
     border-bottom: 2px solid #08558b;
 }
-
 .caucula {
     text-align: center;
     display: inline-block;
+}
+
+.resultado {
+    font-size: 30px;
 }

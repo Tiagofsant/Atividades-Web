@@ -23,13 +23,12 @@ function caucula() {
         console.log(agua)
     }
 
-
     else if (idade >= 66) {
         peso = Number(peso);
         let agua = peso * 25;
         console.log(agua)
     }
 
-
-    
+    const resultado = document.getElementById("resultado")
+    resultado.innerHTML = `Você deve tomar ${agua} ml diariamente`;
 }
